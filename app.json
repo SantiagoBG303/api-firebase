@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "DisneyVerse",
+    "slug": "disneyverse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "48.0.0",
+    "platforms": ["ios", "android", "web"],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0b3b8c"
+    },
+    "android": {
+      "package": "com.disneyverse.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
