@@ -29,7 +29,7 @@ const DetailsScreen: React.FC<Props> = ({ route }) => {
       <Text style={styles.sectionTitle}>Películas</Text>
       <Text style={styles.text}>{(character.films || []).join(', ') || '—'}</Text>
       <Text style={styles.sectionTitle}>Series</Text>
-      <Text style={styles.text}>{(character.tvShows || character.tvShows || []).join(', ') || '—'}</Text>
+      <Text style={styles.text}>{(character.tvShows || []).join(', ') || '—'}</Text>
       <View style={{ marginTop: 18 }}>
         <PrimaryButton title="Agregar a favoritos" onPress={saveFavorite} />
       </View>
